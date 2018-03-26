@@ -1,0 +1,80 @@
+@import url(normalize.css);
+.block {
+    text-align: center;
+}
+.input {
+    width: 95%;
+    height: 100px;
+    border: solid 2px green;
+}
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.keyboard {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: gainsboro;
+    width: 100%;
+}
+
+.keyboard .key, .delete {
+    width: 50px;
+    height: 50px;
+    border: 3px solid grey;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 28px;
+    transition: .4s;
+        }
+.clear-all {
+    width: 100px;
+    height: 50px;
+    border: 3px solid grey;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 28px;
+    transition: .4s;
+}
+.shift-key {
+    width: 100px;
+    height: 50px;
+    border: 3px solid grey;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 28px;
+    transition: .4s;
+}
+.backspace {
+    width: 450px;
+    height: 50px;
+    border: 3px solid grey;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 28px;
+    transition: .4s;
+}
+
+.keyboard .key:hover, .shift-key:hover, .backspace:hover, .delete:hover, .clear-all:hover {
+    font-size: 250%;
+    box-shadow: inset 0px 0px 10px red;
+} 
